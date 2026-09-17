@@ -86,8 +86,8 @@ El proyecto cuenta con documentacion detallada generada a partir de los comentar
 
 La documentacion esta disponible en los siguientes formatos dentro de las carpetas comprimidas html/ y latex/
 
-- HTML: Se puede consultar abriendo el archivo Documentacion/html/index.html en cualquier navegador web para acceder a los diagramas de clases, grafos de dependencias e indice de la API.
-- LaTeX: Disponible en la carpeta Documentacion/latex/ para compilar la documentacion completa en formato PDF mediante pdflatex (ejecutando make dentro del directorio latex).
+- HTML: Se puede consultar abriendo el archivo html/index.html en cualquier navegador web para acceder a los diagramas de clases, grafos de dependencias e indice de la API.
+- LaTeX: Disponible en la carpeta latex/ para compilar la documentacion completa en formato PDF mediante pdflatex (ejecutando make dentro del directorio latex).
 
 ---
 
