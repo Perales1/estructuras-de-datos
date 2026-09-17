@@ -1,18 +1,10 @@
-# Reanelcar — Sistema de Gestión de Carsharing
+# Reanelcar - Sistema de Gestion de Vehiculos Electricos Compartidos (Carsharing)
 
 El proyecto **PR5** implementa el sistema de gestión de vehículos eléctricos **Reanelcar** en **C++17**. Esta práctica está centrada en la integración y análisis de eficiencia de la Tabla Hash (`ThashUsuario`) para la gestión de usuarios, así como el manejo de trayectos, puntos de recarga y geolocalización UTM.
 
 ---
 
-## Autores y Afiliación
-
-* **David Fernández Espejo** (`dfe00004@red.ujaen.es`)
-* **David Lorente Wagner** (`dlw00001@red.ujaen.es`)
-* **Institución:** Universidad de Jaén (UJA)
-
----
-
-## Características Técnicas Reales del Proyecto
+## Características Técnicas del Proyecto
 
 * **Tabla de Dispersión Personalizada (`ThashUsuario`):** Implementación propia de tabla hash para la búsqueda y gestión óptima de usuarios mediante su NIF (`Hash.h`, `Hash.cpp`, `EntradaUsuario.h`, `EntradaUsuario.cpp`).
 * **Documento de Análisis Algorítmico:** Incluye el análisis teórico de dispersión en el archivo `analisis_Thash.md`.
@@ -47,8 +39,6 @@ PR5/
 └── latex/                 # Documentación Doxygen generada en LaTeX
 ```
 
-*(Nota: No existen archivos de malla regular ni librerías PPM/img en este zip; las estructuras principales giran en torno a la Tabla Hash, vectores, listas y la gestión de Reanelcar).*
-
 ---
 
 ## Datasets Incluidos en el ZIP
@@ -56,3 +46,23 @@ PR5/
 * `coches_v2.csv`: Contiene la información de los vehículos.
 * `usuarios1.csv`: Contiene la información de los usuarios registrados.
 * `puntos_recarga.csv`: Ubicación de los puntos de recarga eléctrica.
+
+---
+
+## Documentacion del Codigo (Doxygen)
+
+El proyecto cuenta con documentacion detallada generada a partir de los comentarios de cabecera y archivos fuente utilizando Doxygen.
+
+La documentacion esta disponible en los siguientes formatos dentro de las carpetas comprimidas html/ y latex/
+
+- HTML: Se puede consultar abriendo el archivo Documentacion/html/index.html en cualquier navegador web para acceder a los diagramas de clases, grafos de dependencias e indice de la API.
+- LaTeX: Disponible en la carpeta Documentacion/latex/ para compilar la documentacion completa en formato PDF mediante pdflatex (ejecutando make dentro del directorio latex).
+
+---
+
+## Autores
+
+- David Fernandez Espejo - dfe00004@red.ujaen.es
+- David Lorente Wagner - dlw00001@red.ujaen.es
+
+Universidad de Jaen (UJA) - Grado en Ingenieria Informatica
