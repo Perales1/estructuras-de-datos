@@ -2,8 +2,6 @@
 
 El proyecto **PR5** implementa el sistema de gestión de vehículos eléctricos **Reanelcar** en **C++17**. Esta práctica está centrada en la integración y análisis de eficiencia de la Tabla Hash (`ThashUsuario`) para la gestión de usuarios, así como el manejo de trayectos, puntos de recarga y geolocalización UTM.
 
----
-
 ## Características Técnicas del Proyecto
 
 * **Tabla de Dispersión Personalizada (`ThashUsuario`):** Implementación propia de tabla hash para la búsqueda y gestión óptima de usuarios mediante su NIF (`Hash.h`, `Hash.cpp`, `EntradaUsuario.h`, `EntradaUsuario.cpp`).
@@ -11,8 +9,6 @@ El proyecto **PR5** implementa el sistema de gestión de vehículos eléctricos 
 * **Gestión de Flota y Puntos de Recarga:** Modelado de vehículos (`Coche.h`), estaciones de recarga (`PuntoRecarga.h`) y registro de trayectos (`Trayecto.h`).
 * **Geolocalización UTM:** Representación de ubicaciones geográficas mediante coordenadas UTM (`UTM.h`).
 * **Control del Sistema:** Lógica centralizada de negocio en la clase `Reanelcar` (`Reanelcar.h`, `Reanelcar.cpp`).
-
----
 
 ## Estructura Exacta de Archivos (`PR5.zip`)
 
@@ -39,15 +35,11 @@ PR5/
 └── latex/                 # Documentación Doxygen generada en LaTeX
 ```
 
----
-
 ## Datasets Incluidos en el ZIP
 
 * `coches_v2.csv`: Contiene la información de los vehículos.
 * `usuarios1.csv`: Contiene la información de los usuarios registrados.
 * `puntos_recarga.csv`: Ubicación de los puntos de recarga eléctrica.
-
----
 
 ## Documentacion del Codigo (Doxygen)
 
@@ -57,8 +49,6 @@ La documentacion esta disponible en los siguientes formatos dentro de las carpet
 
 - HTML: Se puede consultar abriendo el archivo html/index.html en cualquier navegador web para acceder a los diagramas de clases, grafos de dependencias e indice de la API.
 - LaTeX: Disponible en la carpeta latex/ para compilar la documentacion completa en formato PDF mediante pdflatex (ejecutando make dentro del directorio latex).
-
----
 
 ## Autores
 
