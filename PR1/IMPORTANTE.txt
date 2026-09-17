@@ -1,0 +1,3 @@
+La carpeta "PR1_1EEDD" corresponde al programa realizado sin el uso de librerías, por lo que, tiene una eficiencia menor (Se emplea algoritmo Burbuja, el cual es O(n^2)).
+
+La carpeta "PR1_2EEDD" corresponde al programa realizado usando librerías, por lo que, tiene una eficiencia mayor (Se emplea algoritmo Quicksort, el cual es O(log n)).
